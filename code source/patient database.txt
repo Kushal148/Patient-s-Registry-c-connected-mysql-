@@ -1,0 +1,10 @@
+CREATE DATABASE patient;
+
+USE patient;
+
+
+CREATE TABLE patientdata(patientId  int(20) NOT NULL,
+			 patientName varchar(20) NOT NULL,
+			 patientdisease varchar(20),
+			 Age int(10)NOT NULL,
+			 PRIMARY KEY (patientId)); 
